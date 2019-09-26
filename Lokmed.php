@@ -395,7 +395,7 @@ if(isset($_POST['go'])) {
         $statis = "";
         $sisa = "";
         $login = "";
-        $param_list = array("statis","kategori","berita","siswa","visi","misi","murid","sejarah","profil","galeri","ketua","dinas","guru","agenda","download","kerjasama","perhubunggan","sekolah","dokumen","pendidikan","prestasi","siswabaru","muridbaru","kepalasekolah","fakultas","kesehatan","bidang","wakil","buku","kerja","bantuan","web","dasar","kenanggan","kebijakan","seni","budaya","lomba","jasamurid","jasaguru","jasa","kepribadian","perkembanggan","kebudaya","perikanan","perternakan","hewan","taman","info","infosiswa","infomurid","infoguru","infoalumni","guru2019","guru2018","guru2017","guru2016","guru2015","berbahaya","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006");
+        $param_list = array("statis","kategori","berita","siswa","visi","misi","murid","sejarah","profil","galeri","ketua","dinas","guru","agenda","download","kerjasama","perhubunggan","sekolah","dokumen","pendidikan","prestasi","siswabaru","muridbaru","kepalasekolah","fakultas","kesehatan","bidang","wakil","buku","kerja","bantuan","web","dasar","kenanggan","kebijakan","seni","budaya","lomba","jasamurid","jasaguru","jasa","kepribadian","perkembanggan","kebudaya","perikanan","perternakan","hewan","taman","info","infosiswa","infomurid","infoguru","infoalumni","guru2019","guru2018","guru2017","guru2016","guru2015","berbahaya","2019","2018","2017","2016","2015","2014","2013","2012","2011","2010","2009","2008","2007","2006","mahasiswa","kekerasan","sedih","senyum","gembira","bahagia","tanda","bercerita);
         $curl = ngcurl($url);
         $curl = str_replace("'", '"', $curl);
         foreach($param_list as $param) {
